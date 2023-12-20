@@ -1,0 +1,10 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+###
+GET https://localhost:7057/option1
+
+###
+GET https://localhost:7057/option2
+
+###
+GET https://localhost:7057/option3
