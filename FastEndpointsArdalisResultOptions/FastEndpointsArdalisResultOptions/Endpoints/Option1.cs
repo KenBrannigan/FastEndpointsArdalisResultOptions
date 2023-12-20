@@ -21,6 +21,7 @@ namespace FastEndpointsArdalisResultOptions.Endpoints
 
             // Use an extension method to call the correct SendXXX function provider by FastEndpoints
             // No way to verify that DataResponse defined as the type listed above is actually the type returned
+            // Could just rely on unit/integration tests to verify the correct response type is returned
             await this.SendArdalisResultAsync(
                 result,
                 r => new DataResponse(r.Value.Id, r.Value.Name),
